@@ -16,6 +16,8 @@
 		185873B819DB182A003B249E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185873B719DB182A003B249E /* Images.xcassets */; };
 		185873BB19DB182A003B249E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185873B919DB182A003B249E /* LaunchScreen.xib */; };
 		185873C719DB182A003B249E /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185873C619DB182A003B249E /* CoreDataTestTests.m */; };
+		185873D219DB33CA003B249E /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 185873D119DB33CA003B249E /* Task.m */; };
+		185873D519DB33CB003B249E /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 185873D419DB33CB003B249E /* List.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		185873C019DB182A003B249E /* CoreDataTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185873C519DB182A003B249E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185873C619DB182A003B249E /* CoreDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestTests.m; sourceTree = "<group>"; };
+		185873D019DB33CA003B249E /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		185873D119DB33CA003B249E /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		185873D319DB33CB003B249E /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		185873D419DB33CB003B249E /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 				185873B719DB182A003B249E /* Images.xcassets */,
 				185873B919DB182A003B249E /* LaunchScreen.xib */,
 				185873AB19DB182A003B249E /* CoreDataTest.xcdatamodeld */,
+				185873D319DB33CB003B249E /* List.h */,
+				185873D419DB33CB003B249E /* List.m */,
+				185873D019DB33CA003B249E /* Task.h */,
+				185873D119DB33CA003B249E /* Task.m */,
 				185873A419DB1829003B249E /* Supporting Files */,
 			);
 			path = CoreDataTest;
@@ -227,10 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185873D519DB33CB003B249E /* List.m in Sources */,
 				185873B319DB182A003B249E /* DetailViewController.m in Sources */,
 				185873B019DB182A003B249E /* MasterViewController.m in Sources */,
 				185873AA19DB182A003B249E /* AppDelegate.m in Sources */,
 				185873AD19DB182A003B249E /* CoreDataTest.xcdatamodeld in Sources */,
+				185873D219DB33CA003B249E /* Task.m in Sources */,
 				185873A719DB182A003B249E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
